@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="170.864" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Task" name="I can navigate on Change Due Date Task" time="100.924">
+<system-out><![CDATA[
+Given I am on the login screen..............................................passed
+And I enter Username........................................................passed
+And I enter the correct password............................................passed
+When I press Log in.........................................................passed
+Then I should see the HomePage..............................................passed
+Given I am on Task page.....................................................passed
+When I click on Task Checkbox...............................................passed
+And I click on Change due Date button.......................................passed
+And I navigate on Change Due Date Task......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task" name="I can navigate on Reassign Task" time="36.477">
+<system-out><![CDATA[
+Given I am on the login screen..............................................passed
+And I enter Username........................................................passed
+And I enter the correct password............................................passed
+When I press Log in.........................................................passed
+Then I should see the HomePage..............................................passed
+Given I am on Task page.....................................................passed
+When I click on Task Checkbox...............................................passed
+And I click on Reassign button..............................................passed
+Then navigate on Reassign Task..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task" name="I can navigate on Show Tagged Task" time="32.69">
+<system-out><![CDATA[
+Given I am on the login screen..............................................passed
+And I enter Username........................................................passed
+And I enter the correct password............................................passed
+When I press Log in.........................................................passed
+Then I should see the HomePage..............................................passed
+Given I am on Task page.....................................................passed
+When I click on Show Tagged Task button.....................................passed
+Then I should see Tagged Task page..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
