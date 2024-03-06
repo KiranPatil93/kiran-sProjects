@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Api TestNg]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.appiancorp.example.HelloAppian">
+        <methods>
+          <include name="Login"/>
+          <include name="enterDate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appiancorp.example.HelloAppian -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Selenium Api TestNg] -->

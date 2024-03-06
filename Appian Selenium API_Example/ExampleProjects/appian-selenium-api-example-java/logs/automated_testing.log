@@ -1,0 +1,845 @@
+2023-07-10 12:39:19,498 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 12:39:22,197 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 12:39:23,841 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 12:39:29,056 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 12:39:35,094 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction - WAIT FOR ACTION [Create a Case]
+2023-07-10 12:39:35,098 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Action wait for - Create a Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.action.TempoAction.waitFor(TempoAction.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnAction(TempoFixture.java:1012) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:20) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 12:41:23,485 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 12:41:25,734 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 12:41:26,894 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 12:41:32,315 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 12:41:37,770 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction - WAIT FOR ACTION [Create a Case]
+2023-07-10 12:41:37,778 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Action wait for - Create a Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.action.TempoAction.waitFor(TempoAction.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnAction(TempoFixture.java:1012) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:20) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 12:44:24,256 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 12:44:26,595 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 12:44:29,366 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 12:44:34,993 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 12:44:40,300 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction - WAIT FOR ACTION [Create a Case]
+2023-07-10 12:44:40,309 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Action wait for - Create a Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.action.TempoAction.waitFor(TempoAction.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnAction(TempoFixture.java:1012) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:21) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 12:53:06,312 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 12:53:06,324 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Wait for Button - New Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton.waitFor(TempoButton.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnButton(TempoFixture.java:2449) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:21) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 12:53:57,350 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 12:54:00,000 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 12:54:02,024 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 12:54:07,036 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 12:54:12,405 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 12:54:12,416 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Wait for Button - New Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton.waitFor(TempoButton.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnButton(TempoFixture.java:2449) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:21) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 12:54:57,000 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 12:54:59,593 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 12:55:00,735 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 12:55:06,178 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 12:55:27,758 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 12:55:27,781 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Wait for Button - New Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton.waitFor(TempoButton.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnButton(TempoFixture.java:2449) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:21) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 12:55:38,988 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 12:55:41,257 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 12:55:42,302 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 12:55:47,414 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 12:55:52,793 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 12:55:52,804 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Wait for Button - New Case
+java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60) ~[selenium-api-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton.waitFor(TempoButton.java:69) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnButton(TempoFixture.java:2449) ~[appian-selenium-api-23.2.1.jar:?]
+	at TestClass.clickOnCase(TestClass.java:21) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 13:00:08,466 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:00:10,857 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:00:13,074 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:00:18,284 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:00:23,752 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:00:23,784 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:20:04,328 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:20:06,030 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:20:07,474 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:20:10,855 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:20:15,963 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:20:15,975 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:24:11,240 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:24:12,819 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:24:15,165 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:24:18,641 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:24:23,990 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:24:24,004 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:28:38,477 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:28:40,124 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:28:42,063 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:28:45,613 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:28:50,793 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:28:50,807 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:31:54,402 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:31:55,817 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:31:57,782 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:32:01,210 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:32:06,553 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:32:06,567 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:42:39,139 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:42:40,963 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:42:42,038 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:42:45,420 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:42:50,569 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:42:50,582 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:46:28,004 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:46:29,384 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:46:31,090 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:46:34,430 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:46:39,817 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:46:39,829 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:48:06,911 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:48:08,341 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:48:09,337 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:48:12,939 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:48:18,133 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:48:18,150 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 13:49:40,848 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 13:49:42,738 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 13:49:43,676 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 13:49:47,052 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 13:49:52,283 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 13:49:52,297 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 15:38:40,172 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 15:38:42,799 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 15:38:44,486 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 15:38:49,372 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 15:38:54,830 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 15:38:54,857 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 15:38:56,846 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 15:38:59,147 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 15:39:04,613 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 15:39:29,664 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 15:39:32,343 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 15:39:33,385 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 15:39:38,270 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 15:39:43,784 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 15:39:43,821 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 15:39:45,673 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 15:39:47,837 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 15:39:53,335 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 15:39:58,576 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 15:39:58,606 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 15:39:59,847 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.news.TempoNewsSocialBox - WAIT FOR REFRESH [//div[contains(@class, 'social_box_container')]//input[not(contains(@class, 'gwt-SuggestBox'))]]
+2023-07-10 15:41:00,360 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.news.TempoNewsSocialBox - WAIT FOR REFRESH [//div[contains(@class, 'social_box_container')]//input[not(contains(@class, 'gwt-SuggestBox'))]]
+2023-07-10 15:42:00,391 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.news.TempoNewsSocialBox - WAIT FOR REFRESH [//div[contains(@class, 'social_box_container')]//input[not(contains(@class, 'gwt-SuggestBox'))]]
+2023-07-10 15:59:05,923 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 15:59:08,294 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 15:59:11,104 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 15:59:16,282 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 15:59:21,720 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 15:59:21,754 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 15:59:23,072 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-10 16:02:26,034 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 16:02:28,589 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 16:02:29,740 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 16:02:34,865 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 16:02:40,410 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 16:02:40,443 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 16:02:41,833 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-10 16:02:43,246 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [22/7/2023]
+2023-07-10 16:03:44,744 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Wait for Field - textarea
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(self::label or self::span) and contains(@class, 'FieldLayout---field_label') and starts-with(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'textarea')]/parent::div/parent::div (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50568/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 718ed2d765b755dea9c7f38e45db002b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230) ~[selenium-support-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.AbstractTempoField.waitFor(AbstractTempoField.java:74) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWith(TempoFixture.java:1179) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.enterParagraph(HelloAppian.java:44) ~[main/:?]
+	at Test.TestClass.enterText(TestClass.java:31) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 16:22:41,258 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 16:22:43,805 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 16:22:45,976 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 16:22:51,440 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 16:22:57,051 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 16:22:57,087 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 16:22:58,525 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-10 16:23:00,256 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [22/07/2023]
+2023-07-10 16:23:00,271 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Populate Field - PLACEHOLDER:mm/dd/yyyy - 22/07/2023
+java.text.ParseException: Unable to parse the date: 22/07/2023
+	at org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:336) ~[commons-lang3-3.0.jar:3.0]
+	at org.apache.commons.lang3.time.DateUtils.parseDateStrictly(DateUtils.java:286) ~[commons-lang3-3.0.jar:3.0]
+	at com.appiancorp.ps.automatedtest.common.AppianObject.parseDate(AppianObject.java:212) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField.populate(TempoDateField.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populate(TempoFieldFactory.java:89) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populateMultiple(TempoFieldFactory.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithPlaceholderWith(TempoFixture.java:1278) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.enterDate(HelloAppian.java:41) ~[main/:?]
+	at Test.TestClass.enterText(TestClass.java:30) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-10 16:27:25,658 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 16:27:28,059 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 16:27:29,078 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 16:27:33,937 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-10 16:27:39,249 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-10 16:27:39,274 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-10 16:27:40,817 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-10 16:41:22,646 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-10 16:41:27,355 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-10 16:41:29,382 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-10 16:41:36,828 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 15:53:47,266 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 15:53:51,000 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 15:53:54,547 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 15:54:00,739 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 15:54:06,458 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 15:54:06,490 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 15:54:08,318 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 16:03:13,676 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 16:03:15,451 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 16:03:16,600 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 16:03:21,050 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 16:03:26,486 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 16:03:26,501 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 16:03:27,733 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 16:06:04,829 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 16:06:06,511 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 16:06:07,534 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 16:06:12,085 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 16:06:17,269 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 16:06:17,287 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 16:06:18,514 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 16:09:48,891 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 16:09:50,523 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 16:09:52,157 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 16:09:56,721 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 16:10:01,848 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 16:10:01,866 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 16:10:03,243 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 16:40:23,273 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 16:40:26,053 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 16:40:30,569 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 16:40:54,410 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 16:41:00,057 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 16:41:00,077 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 16:41:02,020 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:14:59,287 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:15:01,690 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:15:05,409 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:15:10,174 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:15:15,634 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:15:15,649 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:15:27,161 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:15:28,934 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:15:30,452 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:15:36,344 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:15:41,638 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:15:41,656 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:15:42,902 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:15:44,057 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION WAIT FOR [Option 1]
+2023-07-11 17:15:44,087 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION CLICK [Option 1]
+2023-07-11 17:16:12,445 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:16:13,927 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:16:15,096 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:16:19,109 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:16:24,624 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:16:24,642 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:16:25,867 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:16:27,097 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoRadioField - POPULATION [Option 1]
+2023-07-11 17:16:59,847 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:17:01,383 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:17:02,451 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:17:06,638 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:17:11,939 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:17:11,957 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:17:13,163 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:17:14,476 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [22/07/2023]
+2023-07-11 17:17:14,486 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Populate Field - Date - 22/07/2023
+java.text.ParseException: Unable to parse the date: 22/07/2023
+	at org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:336) ~[commons-lang3-3.0.jar:3.0]
+	at org.apache.commons.lang3.time.DateUtils.parseDateStrictly(DateUtils.java:286) ~[commons-lang3-3.0.jar:3.0]
+	at com.appiancorp.ps.automatedtest.common.AppianObject.parseDate(AppianObject.java:212) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField.populate(TempoDateField.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populate(TempoFieldFactory.java:89) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populateMultiple(TempoFieldFactory.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithContains(TempoFixture.java:1215) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithPartiallyMatchingPickerFieldSuggestion(TempoFixture.java:1198) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.enterDate(HelloAppian.java:52) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-11 17:18:57,657 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:18:59,326 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:19:01,055 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:19:04,687 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:19:10,263 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:19:10,280 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:19:11,536 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:19:12,629 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION WAIT FOR [Option 1]
+2023-07-11 17:19:12,659 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION CLICK [Option 1]
+2023-07-11 17:19:49,829 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:19:51,617 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:19:52,830 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:19:56,830 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:20:02,271 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:20:02,288 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:20:03,547 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:20:04,654 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION WAIT FOR [Option 1]
+2023-07-11 17:20:04,694 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION CLICK [Option 1]
+2023-07-11 17:27:09,555 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 17:27:11,950 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 17:27:13,705 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 17:27:18,178 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 17:27:23,623 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 17:27:23,643 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 17:27:24,898 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 17:27:25,974 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION WAIT FOR [Option 1]
+2023-07-11 17:27:26,009 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION CLICK [Option 1]
+2023-07-11 18:47:23,456 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 18:47:26,532 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 18:47:27,701 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 18:47:32,693 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 18:47:38,283 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 18:47:38,305 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 18:47:39,621 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 18:50:49,697 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 18:50:51,194 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 18:50:52,763 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 18:50:56,923 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 18:51:02,691 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 18:51:02,720 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 18:51:04,543 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-11 19:09:09,765 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-11 19:09:12,698 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-11 19:09:15,759 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-11 19:09:21,356 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-11 19:09:27,087 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-11 19:09:27,116 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-11 19:09:28,827 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:15:32,857 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:15:35,506 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:15:37,370 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:15:44,079 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:15:49,385 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:15:49,410 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:15:51,300 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:16:43,696 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:16:45,936 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:16:48,008 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:16:53,437 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:16:59,009 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:16:59,043 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:17:00,521 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:17:13,811 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:17:16,468 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:17:17,827 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:17:23,208 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:17:28,545 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:17:28,576 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:17:30,027 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:19:10,805 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:19:13,079 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:19:14,337 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:19:19,459 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:19:24,970 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:19:25,004 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:19:26,729 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:25:39,504 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:25:42,481 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:25:45,707 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:25:51,619 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:25:57,163 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:25:57,194 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:25:59,003 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:26:24,182 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:26:27,141 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:26:29,355 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:26:35,283 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:26:41,027 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:26:41,053 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:26:42,869 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:27:38,218 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:27:41,126 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:27:42,522 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:27:48,055 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:27:53,540 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:27:53,579 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:27:54,978 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:27:56,767 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [22/07/2023]
+2023-07-12 11:27:56,796 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Populate Field - Date - 22/07/2023
+java.text.ParseException: Unable to parse the date: 22/07/2023
+	at org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:336) ~[commons-lang3-3.0.jar:3.0]
+	at org.apache.commons.lang3.time.DateUtils.parseDateStrictly(DateUtils.java:286) ~[commons-lang3-3.0.jar:3.0]
+	at com.appiancorp.ps.automatedtest.common.AppianObject.parseDate(AppianObject.java:212) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField.populate(TempoDateField.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populate(TempoFieldFactory.java:89) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populateMultiple(TempoFieldFactory.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithContains(TempoFixture.java:1215) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithPartiallyMatchingPickerFieldSuggestion(TempoFixture.java:1198) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.enterDate(HelloAppian.java:55) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-12 11:29:12,399 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:29:15,062 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:29:16,320 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:29:22,646 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:29:27,917 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:29:27,951 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:29:29,672 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:29:31,538 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [22/07/2023]
+2023-07-12 11:29:31,553 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Populate Field - Date - 22/07/2023
+java.text.ParseException: Unable to parse the date: 22/07/2023
+	at org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:336) ~[commons-lang3-3.0.jar:3.0]
+	at org.apache.commons.lang3.time.DateUtils.parseDateStrictly(DateUtils.java:286) ~[commons-lang3-3.0.jar:3.0]
+	at com.appiancorp.ps.automatedtest.common.AppianObject.parseDate(AppianObject.java:212) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField.populate(TempoDateField.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populate(TempoFieldFactory.java:89) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populateMultiple(TempoFieldFactory.java:56) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithContains(TempoFixture.java:1215) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWithPartiallyMatchingPickerFieldSuggestion(TempoFixture.java:1198) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.enterDate(HelloAppian.java:55) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.1.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.1.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) [testng-7.1.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:587) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.1.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) [testng-7.1.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1007) [testng-7.1.0.jar:?]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2023-07-12 11:29:48,269 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:29:50,969 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:29:52,180 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:29:58,063 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:30:03,457 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:30:03,495 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:30:05,109 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:30:06,812 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [2/07/2023]
+2023-07-12 11:33:07,206 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:33:09,869 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:33:13,154 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:33:19,233 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:33:24,951 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:33:24,992 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:33:26,909 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField - POPULATION [testing for Selenium Api]
+2023-07-12 11:39:44,586 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:39:47,125 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:39:50,456 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:39:56,878 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:40:02,647 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:40:02,686 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:40:04,336 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:40:05,632 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDropdownSearchBox - WAIT FOR DROPDOWN SEARCH BOX [Dropdown]
+2023-07-12 11:40:05,695 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDropdownSearchBox - SEARCH DROPDOWN [Dropdown] FOR [Option 1]
+2023-07-12 11:40:09,782 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:40:12,121 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:40:18,546 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:40:24,312 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:40:24,346 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:40:26,271 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:40:28,174 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION WAIT FOR [Option 1]
+2023-07-12 11:40:28,260 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION CLICK [Option 1]
+2023-07-12 11:40:32,036 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:40:35,143 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:40:43,061 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:40:49,679 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:40:49,716 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:40:51,926 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:40:53,642 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoRadioField - POPULATION [Option 1]
+2023-07-12 11:40:54,724 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:40:57,398 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:41:07,658 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:41:14,943 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:41:14,977 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:41:17,313 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField - POPULATION [testing for Selenium Api]
+2023-07-12 11:41:19,775 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:41:22,025 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:41:32,179 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:41:38,850 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:41:38,883 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:41:40,840 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:41:42,812 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:41:45,859 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:41:51,985 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:41:57,450 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:41:57,482 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:41:58,902 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:42:00,484 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [2/07/2023]
+2023-07-12 11:48:37,908 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:48:40,546 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-07-12 11:48:42,840 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:48:48,450 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:48:54,115 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:48:54,140 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:48:55,599 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:48:56,839 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDropdownSearchBox - WAIT FOR DROPDOWN SEARCH BOX [Dropdown]
+2023-07-12 11:48:56,907 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDropdownSearchBox - SEARCH DROPDOWN [Dropdown] FOR [Option 1]
+2023-07-12 11:49:00,772 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:49:03,185 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:49:11,121 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:49:16,672 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:49:16,700 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:49:18,697 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:49:20,000 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION WAIT FOR [Option 1]
+2023-07-12 11:49:20,069 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoCheckboxFieldOption - CHECKBOX OPTION CLICK [Option 1]
+2023-07-12 11:49:24,699 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:49:27,015 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:49:34,255 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:49:39,663 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:49:39,681 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:49:41,032 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:49:42,413 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoRadioField - POPULATION [Option 1]
+2023-07-12 11:49:44,278 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:49:46,784 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:49:53,447 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:49:58,846 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:49:58,877 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:50:00,421 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField - POPULATION [testing for Selenium Api]
+2023-07-12 11:50:02,967 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:50:05,428 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:50:12,694 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:50:18,186 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:50:18,211 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:50:19,628 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:50:21,180 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-07-12 11:50:23,527 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-07-12 11:50:31,159 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-07-12 11:50:37,943 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-07-12 11:50:37,978 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-07-12 11:50:41,175 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-07-12 11:50:43,036 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField - POPULATION [2/07/2023]
+2023-08-11 13:20:04,828 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:20:08,175 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:20:15,903 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-08-11 13:21:33,240 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:21:38,625 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - WAIT FOR BUTTON [New Case]
+2023-08-11 13:21:38,639 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton - CLICK BUTTON [New Case]
+2023-08-11 13:21:39,930 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField - POPULATION [Kiran]
+2023-08-23 11:59:48,258 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2024-03-04 13:05:12,072 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2024-03-04 13:37:15,154 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME

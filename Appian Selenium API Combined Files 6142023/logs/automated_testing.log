@@ -1,0 +1,541 @@
+2023-07-10 12:05:22,320 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 12:35:24,772 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 12:35:27,758 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 12:35:29,529 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran123]
+2023-08-11 12:35:29,915 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran123
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:136) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:17:38,532 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:17:55,827 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:17:59,272 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:18:00,540 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 13:18:04,858 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:18:36,491 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9df9965a8e0fae30844c653aac64db42, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64938/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9df9965a8e0fae30844c653aac64db42
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:18:36,679 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:21:44,242 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:21:47,339 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:21:48,339 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 13:21:53,220 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:22:24,753 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae130f998b982080839155595e0deec2, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65260/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae130f998b982080839155595e0deec2
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:22:25,093 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:31:48,726 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:31:52,585 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:31:54,806 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 13:32:00,196 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:32:31,903 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3d57e3dc168369e5e9a6d64003244a4, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49207/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3d57e3dc168369e5e9a6d64003244a4
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:32:32,093 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:40:43,678 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:40:46,930 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:40:48,765 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 13:40:53,891 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:41:25,548 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18a00efea89ca9f49361bb30335fdab3, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49768/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18a00efea89ca9f49361bb30335fdab3
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:41:25,718 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:42:41,455 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:42:44,409 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:42:45,431 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 13:42:49,859 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:43:21,691 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07f425965e16f10cb139f71722ee8701, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49849}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49849/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07f425965e16f10cb139f71722ee8701
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:43:21,904 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:43:29,473 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 13:43:32,280 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 13:43:33,269 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 13:43:37,503 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 13:44:09,225 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [502121480c9713cc6e4e0e4b10dc7a15, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49907/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 502121480c9713cc6e4e0e4b10dc7a15
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 13:44:09,419 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:03:18,105 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 14:03:21,133 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 14:03:23,438 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 14:03:27,863 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 14:03:59,504 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63b38be8dd42fdd77d78e24fef7e5f4d, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50160/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63b38be8dd42fdd77d78e24fef7e5f4d
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:03:59,686 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:10:13,714 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 14:10:17,185 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 14:10:18,404 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 14:10:23,163 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 14:10:54,459 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4235d52f02b12be9164a54365c32f460, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50441/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4235d52f02b12be9164a54365c32f460
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:10:54,660 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:43:10,683 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 14:43:13,777 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 14:43:15,216 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 14:43:19,912 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 14:43:51,174 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97fc884a0d42afde35e6f737a719f6cd, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50788/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97fc884a0d42afde35e6f737a719f6cd
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:43:51,369 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:47:02,918 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 14:47:05,946 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 14:47:07,261 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 14:47:12,304 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 14:47:43,734 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3a9cf216ded0724a0065dc70ba1d4c0, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51007}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51007/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3a9cf216ded0724a0065dc70ba1d4c0
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:47:44,147 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:50:24,725 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 14:50:28,081 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 14:50:31,889 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 14:50:39,888 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 14:51:11,334 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83d9e0119a5e79cd7cf278bfbb9937ce, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51235/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83d9e0119a5e79cd7cf278bfbb9937ce
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:51:11,595 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:52:07,599 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-08-11 14:52:10,491 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-08-11 14:52:11,808 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - LOGIN [kiran.patil@yexle.com]
+2023-08-11 14:52:15,984 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin - WAIT FOR LOGIN
+2023-08-11 14:52:47,449 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Logout link
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@aria-label,'Open user options menu')]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [629d8f5ab5af3a7795922cc584cf8745, findElement {using=xpath, value=//a[contains(@aria-label,'Open user options menu')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KIRANP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51455/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 629d8f5ab5af3a7795922cc584cf8745
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitForSitesLogoutLink(TempoLogin.java:109) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:92) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]
+2023-08-11 14:52:47,666 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder - Login page - kiran.patil@yexle.com
+com.appiancorp.ps.automatedtest.exception.ObjectNotFoundTestException: message:<<Object not found: Logout link>>
+	at com.appiancorp.ps.automatedtest.exception.ExceptionBuilder.build(ExceptionBuilder.java:29) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.waitFor(TempoLogin.java:96) ~[appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.tempo.TempoLogin.login(TempoLogin.java:147) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsernameAndPassword(BaseFixture.java:438) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginIntoWithUsername(BaseFixture.java:467) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.ps.automatedtest.fixture.BaseFixture.loginWithUsername(BaseFixture.java:478) [appian-selenium-api-23.2.1.jar:?]
+	at com.appiancorp.example.HelloAppian.main(HelloAppian.java:30) [main/:?]

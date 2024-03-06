@@ -1,0 +1,20 @@
+2023-06-20 12:17:52,405 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=BROWSER
+2023-06-20 12:17:52,426 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-06-20 12:20:09,931 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=BROWSER
+2023-06-20 12:20:09,953 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-06-20 12:20:25,462 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=BROWSER
+2023-06-20 12:20:25,482 [main] DEBUG com.appiancorp.ps.automatedtest.common.FixtureMetrics - userid=8706a2860630ec3b2437db7f19482e904f07363d6f7d3c71a92715afbe489fe3, pipelineDimension=Standalone, testingFramework=FitNesse
+2023-06-20 12:22:29,104 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:29:18,011 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:30:27,682 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:37:18,106 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:40:09,537 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:41:52,006 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:44:11,994 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:48:15,145 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:49:43,340 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:51:42,547 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-20 12:56:19,735 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-21 15:53:38,391 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-30 11:12:18,744 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME
+2023-06-30 11:14:56,580 [main] DEBUG com.appiancorp.ps.automatedtest.fixture.BaseFixture - browser=CHROME

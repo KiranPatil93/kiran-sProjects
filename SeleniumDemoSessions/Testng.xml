@@ -1,0 +1,15 @@
+<suite name="test_suite">
+    <test name="Check Login Page">
+        <groups>
+            <run>
+                <include name="dropdown"/>
+                <class name="Annotations"/>
+                <class name="DropdownHandling"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Annotations"/>
+        </classes>
+    </test>
+
+</suite>

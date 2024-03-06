@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Appian Selenium API Combined Files 6142023">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaDoc.zip!/" />
+      <root url="jar://$PROJECT_DIR$/appian-selenium-api-23.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExampleProjects.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

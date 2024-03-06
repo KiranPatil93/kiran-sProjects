@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Karate Tests">
+    <test name="Karate Test">
+        <classes>
+            <class name="karate.KarateTestRunner">
+                <parameter name="sample.features" value="classpath:src/main/java/com.appiancorp.example/Feature/sample.feature"/>
+            </class>
+        </classes>
+    </test>
+</suite>
