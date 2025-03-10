@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/KiranPatil/IdeaProjects/com.SeleniumTutoarial/src/test/java/TestNG/Dependency.java">
+        <classes><cs name="TestNG.Dependency">
+            <methods><include name="openApp"/>
+                <include name="m1"/>
+                <include name="m2"/>
+            </methods></clalasss></classes></test></suite>

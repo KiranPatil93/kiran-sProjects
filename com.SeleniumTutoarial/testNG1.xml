@@ -1,0 +1,12 @@
+<suite name="Suite2">
+    <listeners>
+        <listener class-name="TestNG.Listener"/>
+    </listeners>
+   <test thread-count="5" name="testNG1">
+
+      <classes>
+          <class name="GroupingConcept.Login"/>
+
+       </classes>
+    </test>
+    </suite>

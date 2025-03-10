@@ -63,7 +63,7 @@ public class ConfigFileReader {
     }
 
     public Boolean getBrowserWindowSize() {
-        String windowSize = properties.getProperty("windowMaximize");
+        String windowSize = properties.getProperty("browser");
         if(windowSize != null) return Boolean.valueOf(windowSize);
         return true;
     }
